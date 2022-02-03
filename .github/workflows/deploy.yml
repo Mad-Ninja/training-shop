@@ -20,5 +20,4 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-@Mad-Ninja
  
