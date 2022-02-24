@@ -1,38 +1,25 @@
 import {
   colorImg,
   sizeImg,
-  productSlider,
   serviceItem,
   checoutItem,
   reviewItem,
 } from "../../../constants/product";
 
-import upImg from "../../../images/product-page//button-up.svg";
-import downImg from "../../../images/product-page/button-down.svg";
-import mainPhoto from "../../../images/product-page/card-product/product-image.jpg";
+
 import clothesHanger from "../../../images/product-page/card-product/clothes-hanger.svg";
 import heartImg from "../../../images/product-page/card-product/heart.svg";
 import scaleImg from "../../../images/product-page/card-product/scale.svg";
 import ratingHeaderSrc from "../../../images/product-page/header-product/rating-five.svg";
-
+import { Slider } from "./slider/slider";
 import "./card-product.scss";
 
 export const CardProduct = () => {
   return (
     <div className="card-product">
-      <div className="slider">
-        <div className="slider-left">
-          <div className="navigation">
-            <img src={upImg} alt="prev" />
-            <img src={downImg} alt="next" />
-          </div>
-          {productSlider.map(({ key, imageSrc }) => (
-            <img key={key} src={imageSrc} alt="photoProduct" />
-          ))}
-        </div>
 
-        <img src={mainPhoto} alt="mainPhoto" />
-      </div>
+     <Slider />
+
       <div className="inform">
         <div className="informName">
           <div>

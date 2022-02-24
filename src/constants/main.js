@@ -5,6 +5,32 @@ import support from "../images/main/advantage/support.svg";
 import easiestImg from "../images/main/blog/easiest.jpg";
 import weddingImg from "../images/main/blog/wedding.jpg";
 import favoritesImg from "../images/main/blog/favorites.jpg";
+import bannerImg from "../images/main/header/banner.jpg";
+
+
+export const slider_1 = [
+  {
+    id: "1",
+    title: "Banner",
+    text: "your title text ",
+    imageSrc: bannerImg,
+    alt: "banner",
+  },
+  {
+    id: "2",
+    title: "Banner",
+    text: "your title text ",
+    imageSrc: bannerImg,
+    alt: "banner",
+  },
+  {
+    id: "3",
+    title: "Banner",
+    text: "your title text ",
+    imageSrc: bannerImg,
+    alt: "banner",
+  },
+];
 
 export const advantage = [
   {
